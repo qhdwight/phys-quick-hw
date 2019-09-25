@@ -1,0 +1,14 @@
+{{define "content"}}
+    <hr class="bg-secondary mt-0">
+    <div class="container">
+        <h1>
+            {{ .Unit.UnitName }}
+        </h1>
+        <hr class="bg-secondary">
+        <ul>
+            {{ range $index, $worksheet := .Unit.Worksheets }}
+                <li><a href="/units/{{ $.UnitIndex }}/worksheets/{{ $index }}">{{ $worksheet.WorksheetName }}</a></li>
+            {{end}}
+        </ul>
+    </div>
+{{end}}

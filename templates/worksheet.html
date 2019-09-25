@@ -1,0 +1,26 @@
+{{define "content"}}
+    <hr class="bg-secondary mt-0">
+    <div class="container-flex">
+        <h3 class="text-center">
+            {{ .Worksheet.WorksheetName }}
+        </h3>
+        <hr class="bg-secondary">
+        <div class="row" style="height: 100%;">
+            {{if .Worksheet.Problems}}
+                <div class="col">
+                    <embed src="/static/{{ .Worksheet.Problems }}" type="application/pdf" width="100%" style="height: 75vh;">
+                </div>
+            {{end}}
+            {{if .Worksheet.Solutions}}
+            <div class="col">
+                <embed src="/static/{{ .Worksheet.Solutions }}" type="application/pdf" width="100%" style="height: 75vh;">
+                {{end}}
+            </div>
+        </div>
+    </div>
+{{end}}
+{{define "scripts"}}
+    <script>
+
+    </script>
+{{end}}

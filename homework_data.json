@@ -1,0 +1,27 @@
+[
+  {
+    "UnitName": "Unit One: Motion",
+    "Worksheets": [
+      {
+        "WorksheetName": "WS-1",
+        "Problems": "pdf/u1-ws1-probs.pdf"
+      },
+      {
+        "WorksheetName": "WS-2",
+        "Problems": "pdf/u1-ws2-probs.pdf",
+        "Solutions": "pdf/u1-ws2-sols.pdf"
+      }
+    ]
+  },
+  {
+    "UnitName": "Unit Two: Force",
+    "Worksheets": [
+      {
+        "WorksheetName": "WS-1"
+      },
+      {
+        "WorksheetName": "WS-2"
+      }
+    ]
+  }
+]
