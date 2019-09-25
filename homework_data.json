@@ -17,10 +17,64 @@
     "UnitName": "Unit Two: Force",
     "Worksheets": [
       {
-        "WorksheetName": "WS-1"
+        "WorksheetName": "WS-1",
+        "Problems": "pdf/u2-ws1-probs.pdf",
+        "Solutions": "pdf/u2-ws1-sols.pdf"
       },
       {
-        "WorksheetName": "WS-2"
+        "WorksheetName": "WS-2",
+        "Problems": "pdf/u2-ws2-probs.pdf",
+        "Solutions": "pdf/u2-ws2-sols.pdf"
+      },
+      {
+        "WorksheetName": "WS-3",
+        "Problems": "pdf/u2-ws3-probs.pdf",
+        "Solutions": "pdf/u2-ws3-sols.pdf"
+      },
+      {
+        "WorksheetName": "WS-4",
+        "Problems": "pdf/u2-ws4-probs.pdf",
+        "Solutions": "pdf/u2-ws4-sols.pdf"
+      },
+      {
+        "WorksheetName": "WS-5",
+        "Problems": "pdf/u2-ws5-probs.pdf",
+        "Solutions": "pdf/u2-ws5-sols.pdf"
+      },
+      {
+        "WorksheetName": "WS-6",
+        "Problems": "pdf/u2-ws6-probs.pdf",
+        "Solutions": "pdf/u2-ws6-sols.pdf"
+      }
+    ]
+  },
+  {
+    "UnitName": "Unit Three: Energy",
+    "Worksheets": [
+      {
+        "WorksheetName": "WS-1",
+        "Problems": "pdf/u3-ws1-probs.pdf",
+        "Solutions": "pdf/u3-ws1-sols.pdf"
+      },
+      {
+        "WorksheetName": "WS-2",
+        "Problems": "pdf/u3-ws2-probs.pdf",
+        "Solutions": "pdf/u3-ws2-sols.pdf"
+      },
+      {
+        "WorksheetName": "WS-3",
+        "Problems": "pdf/u3-ws3-probs.pdf",
+        "Solutions": "pdf/u3-ws3-sols.pdf"
+      },
+      {
+        "WorksheetName": "WS-4",
+        "Problems": "pdf/u3-ws4-probs.pdf",
+        "Solutions": "pdf/u3-ws4-sols.pdf"
+      },
+      {
+        "WorksheetName": "WS-5",
+        "Problems": "pdf/u3-ws5-probs.pdf",
+        "Solutions": "pdf/u3-ws5-sols.pdf"
       }
     ]
   }
