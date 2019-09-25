@@ -1,8 +1,10 @@
 package main
 
 import (
+	"fmt"
 	"html/template"
 	"net/http"
+	"os"
 )
 
 var templates = template.Must(template.ParseFiles("base.html", "home.html"))
@@ -19,6 +21,7 @@ func main() {
 		err := templates.Execute(w, data)
 		handle(err)
 	})
-	err := http.ListenAndServe("localhost:8080", nil)
+	port := os.Getenv("PORT")
+	err := http.ListenAndServe(fmt.Sprintf(":%s", port), nil)
 	handle(err)
 }
