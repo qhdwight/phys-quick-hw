@@ -30,7 +30,7 @@
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     {{ range $index, $unit := .Units }}
-                        <a class="dropdown-item" href=/units/{{ $index }}>{{ $unit.UnitName }}</a>
+                        <a class="dropdown-item" href=/units/{{ $index }}>{{- $unit.UnitName -}}</a>
                     {{end}}
                 </div>
             </li>

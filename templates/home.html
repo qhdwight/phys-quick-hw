@@ -6,21 +6,29 @@
         <hr class="bg-secondary mt-0">
         <div class="accordion" id="unitAccordion">
             {{range $unitIndex, $unit := .Units}}
-            {{if (eq $unitIndex 2)}}
-            <div class="card bg-dark border-primary">
-                {{else}}
-                <div class="card bg-dark">
-                    {{end}}
+                {{ $isMain := (eq $unitIndex 2)}}
+                <div
+                        {{if $isMain}}
+                            class="card bg-dark border-primary"
+                        {{else}}
+                            class="card bg-dark"{{end}}
+                >
                     <div class="card-header" id="heading{{$unitIndex}}">
                         <h2 class="mb-0">
                             <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse{{$unitIndex}}"
                                     aria-expanded="true"
                                     aria-controls="collapse{{$unitIndex}}">
-                                {{$unit.UnitName}}
+                                {{- $unit.UnitName -}}
                             </button>
                         </h2>
                     </div>
-                    <div id="collapse{{$unitIndex}}" class="collapse" aria-labelledby="heading{{$unitIndex}}" data-parent="#unitAccordion">
+                    <div id="collapse{{$unitIndex}}"
+                            {{if $isMain}}
+                                class="collapse show"
+                            {{else}}
+                                class="collapse"
+                            {{end}}
+                         aria-labelledby="heading{{$unitIndex}}" data-parent="#unitAccordion">
                         <div class="card-body">
                             <ul>
                                 {{ range $worksheetIndex, $worksheet := $unit.Worksheets }}
@@ -38,7 +46,8 @@
                         </div>
                     </div>
                 </div>
-                {{end}}
-            </div>
+            {{end}}
         </div>
+    </div>
+    </div>
 {{end}}

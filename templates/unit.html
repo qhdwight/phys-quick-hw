@@ -2,15 +2,15 @@
     <hr class="bg-secondary mt-0">
     <div class="container">
         <h1>
-            {{ .Unit.UnitName }}
+            {{- .Unit.UnitName -}}
         </h1>
         <hr class="bg-secondary">
         <ul>
             {{ range $index, $worksheet := .Unit.Worksheets }}
                 <li>
                     <div class="d-flex d-inline-block align-items-center justify-content-start">
-                        <a href="/units/{{ $.UnitIndex }}/worksheets/{{ $index }}">{{ $worksheet.WorksheetName }}</a>
-                        <a href="/units/{{ $.UnitIndex }}/worksheets/{{ $index }}" target="_blank"
+                        <a href="/units/{{$.UnitIndex}}/worksheets/{{$index}}">{{$worksheet.WorksheetName}}</a>
+                        <a href="/units/{{$.UnitIndex}}/worksheets/{{$index}}" target="_blank"
                            class="btn btn-sm btn-outline-light btn-link text-white ml-3 my-1">
                             New Tab<i class="ml-1 fas fa-external-link-alt"></i>
                         </a>
