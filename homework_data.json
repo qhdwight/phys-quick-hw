@@ -106,8 +106,7 @@
       },
       {
         "WorksheetName": "WS-6",
-        "Problems": "pdf/u4-ws6-probs.pdf",
-        "Solutions": "pdf/u4-ws6-sols.pdf"
+        "Problems": "pdf/u4-ws6-probs.pdf"
       },
       {
         "WorksheetName": "WS-7",
