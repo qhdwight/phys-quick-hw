@@ -133,15 +133,18 @@
       },
       {
         "WorksheetName": "WS-3",
-        "Problems": "pdf/u5-ws3-probs.pdf"
+        "Problems": "pdf/u5-ws3-probs.pdf",
+        "Solutions": "pdf/u5-ws3-sols.pdf"
       },
       {
         "WorksheetName": "WS-4",
-        "Problems": "pdf/u5-ws4-probs.pdf"
+        "Problems": "pdf/u5-ws4-probs.pdf",
+        "Solutions": "pdf/u5-ws4-sols.pdf"
       },
       {
         "WorksheetName": "WS-5",
-        "Problems": "pdf/u5-ws5-probs.pdf"
+        "Problems": "pdf/u5-ws5-probs.pdf",
+        "Solutions": "pdf/u5-ws5-sols.pdf"
       }
     ]
   }
