@@ -124,7 +124,8 @@
     "Worksheets": [
       {
         "WorksheetName": "WS-1",
-        "Problems": "pdf/u5-ws1-probs.pdf"
+        "Problems": "pdf/u5-ws1-probs.pdf",
+        "Solutions": "pdf/u5-ws1-sols.pdf"
       },
       {
         "WorksheetName": "WS-2",
