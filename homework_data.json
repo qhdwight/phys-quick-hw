@@ -106,8 +106,7 @@
       },
       {
         "WorksheetName": "WS-6",
-        "Problems": "pdf/u4-ws6-probs.pdf",
-        "Solutions": "pdf/u4-ws6-sols.pdf"
+        "Problems": "pdf/u4-ws6-probs.pdf"
       },
       {
         "WorksheetName": "WS-7",
@@ -117,6 +116,35 @@
       {
         "WorksheetName": "WS-8",
         "Problems": "pdf/u4-ws8-probs.pdf"
+      }
+    ]
+  },
+  {
+    "UnitName": "Unit Five: Statics, Universal Gravitation and Oscillatory Motion",
+    "Worksheets": [
+      {
+        "WorksheetName": "WS-1",
+        "Problems": "pdf/u5-ws1-probs.pdf",
+        "Solutions": "pdf/u5-ws1-sols.pdf"
+      },
+      {
+        "WorksheetName": "WS-2",
+        "Problems": "pdf/u5-ws2-probs.pdf"
+      },
+      {
+        "WorksheetName": "WS-3",
+        "Problems": "pdf/u5-ws3-probs.pdf",
+        "Solutions": "pdf/u5-ws3-sols.pdf"
+      },
+      {
+        "WorksheetName": "WS-4",
+        "Problems": "pdf/u5-ws4-probs.pdf",
+        "Solutions": "pdf/u5-ws4-sols.pdf"
+      },
+      {
+        "WorksheetName": "WS-5",
+        "Problems": "pdf/u5-ws5-probs.pdf",
+        "Solutions": "pdf/u5-ws5-sols.pdf"
       }
     ]
   },
