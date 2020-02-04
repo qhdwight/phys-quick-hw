@@ -185,6 +185,11 @@
         "WorksheetName": "WS-7",
         "Problems": "pdf/u6-ws7-probs.pdf",
         "Solutions": "pdf/u6-ch25-sols.pdf"
+      },
+      {
+        "WorksheetName": "Review",
+        "Problems": "pdf/u6-review-probs.pdf",
+        "Solutions": "pdf/u6-review-sols.pdf"
       }
     ]
   }
