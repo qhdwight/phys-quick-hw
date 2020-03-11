@@ -202,11 +202,8 @@
       },
       {
         "WorksheetName": "WS-2 & WS-3",
-        "Problems": "pdf/u7-ws2and3-probs.pdf"
-      },
-      {
-        "WorksheetName": "WS-3",
-        "Problems": "pdf/u7-ws3-probs.pdf"
+        "Problems": "pdf/u7-ws2and3-probs.pdf",
+        "Solutions": "pdf/u7-ch27-sols.pdf"
       },
       {
         "WorksheetName": "WS-4",
@@ -215,7 +212,6 @@
       {
         "WorksheetName": "WS-5",
         "Problems": "pdf/u7-ws5-probs.pdf"
-
       },
       {
         "WorksheetName": "WS-6",
